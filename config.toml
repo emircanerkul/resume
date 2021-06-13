@@ -159,6 +159,10 @@ googleAnalytics = "UA-84655550-4"
         [[params.experience.list.items]]
         details = "Full-stack Web Development and System Design for ringtonehd.com"
         [[params.experience.list.items]]
+        details = "Full Stack Web Developer at Tvoystol for one month"
+        [[params.experience.list.items]]
+        details = "Full Stack Web Developer at Modalobby for two month"
+        [[params.experience.list.items]]
         details = "Product synchronization via Prestashop API for otolastikci.com.tr"
         [[params.experience.list.items]]
         details = "Rest API Development for kurtuluskuruyemis.com.tr"
