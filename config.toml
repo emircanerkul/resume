@@ -20,22 +20,14 @@ googleAnalytics = "UA-84655550-4"
 
     [params.profile]
         enable = true
-        name = "EMIRCAN ERKUL"
-        tagline = "Full Stack Web Developer focused on Drupal"
+        name = "Emircan ERKUL"
+        tagline = "Full Stack Web Developer focused on <span>Drupal</span>"
         avatar = "avatar.png"
 
     [params.contact]
         enable = true
         location = "Turkey & Remote"
 
-        [[params.contact.list]]
-        icon = "fas fa-phone"
-        url = "mailto:contact@emircanerkul.com"
-        text = "+90 *** *** 25 93"
-        [[params.contact.list]]
-        icon = "fas fa-envelope"
-        url = "mailto:contact@emircanerkul.com"
-        text = "contact@emircanerkul.com"
         [[params.contact.list]]
         icon = "fab fa-github"
         url = "//github.com/emircanerkul"
