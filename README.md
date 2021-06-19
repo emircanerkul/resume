@@ -1,1 +1,1 @@
-[![Preview](https://raw.githubusercontent.com/emircanerkul/emircanerkul/main/info.png)](https://emircanerkul.com/)
+[![Preview](https://raw.githubusercontent.com/emircanerkul/emircanerkul/master/info.png)](https://emircanerkul.com/)
