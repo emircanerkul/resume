@@ -1,0 +1,27 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "[![Preview](https://raw.githubusercontent.com/emircanerkul/emircanerkul/master/info.png)](https://emircanerkul.com/)",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "sw-precache": "^5.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "swgen": "gulp generate-service-worker"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emircanerkul/emircanerkul.git"
+  },
+  "author": "Emircan ERKUL",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emircanerkul/emircanerkul/issues"
+  },
+  "homepage": "https://github.com/emircanerkul/emircanerkul#readme"
+}
