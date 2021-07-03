@@ -1,0 +1,12 @@
+
+                        <div class="resume-contact col-12 col-md-6 col-lg-4 col-xl-3">
+                            <ul class="list-unstyled mb-0">
+                                <li class="mb-2 d-none"><a class="url" href="https://emircanerkul.com/">w</a></li>
+                                <li class="mb-2 tel"><i class="icon-phone mr-2"></i><a class="resume-link" href="mailto:contact@emircanerkul.com">+90 *** *** 25 93</a></li>
+                                <li class="mb-2 email"><i class="icon-envelope mr-2"></i><a class="resume-link" href="mailto:contact@emircanerkul.com">contact@emircanerkul.com</a></li>
+                                {{ range .Site.Params.contact.list }}
+                                <li class="mb-2"><i class="{{ .icon }} mr-2"></i><a class="resume-link" href="{{ .url | safeURL }}">{{ .text }}</a></li>
+                                {{ end }}
+                                <li class="mb-0 adr"><i class="icon-map-marker mr-2"></i>{{ .Site.Params.contact.location }}</li>
+                            </ul>
+                        </div><!--//resume-contact-->

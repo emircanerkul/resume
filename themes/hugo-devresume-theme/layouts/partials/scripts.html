@@ -1,0 +1,9 @@
+    <script type="text/javascript">
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/sw.js');
+            });
+        }
+    </script>
+
+    {{ template "_internal/google_analytics_async.html" . }}

@@ -1,0 +1,49 @@
+
+    <title>{{ .Site.Title }}</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ .Site.Params.description }}">
+    <meta name="author" content="{{ .Site.Params.author }}">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://emircanerkul.com">
+    <meta property="og:title" content="{{ .Site.Title }}">
+    <meta property="og:description" content="I spend my time and energy on personal and technical development. On this website, you can find more detail about me and my professional life.">
+    <meta property="og:image" content="assets/images/og.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://emircanerkul.com">
+    <meta property="twitter:title" content="{{ .Site.Title }}">
+    <meta property="twitter:description" content="I spend my time and energy on personal and technical development. On this website, you can find more detail about me and my professional life.">
+    <meta property="twitter:image" content="assets/images/og.jpg">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="{{ .Site.Title }}">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="theme-color" content="#4c74b8"/>
+    <link rel="manifest" href="/manifest.json">
+
+    <link rel="apple-touch-icon" sizes="192x192" href="/assets/icons/logo-192x192.png">
+    <link rel="apple-touch-icon-precomposed" sizes="192x192" href="/assets/icons/logo-192x192.png">
+    <link rel="icon" sizes="192x192" href="/assets/icons/logo-192x192.png">
+    <link rel="icon" sizes="128x128" href="/assets/icons/logo-128x128.png">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900">
+    <!-- Theme SCSS -->
+    {{ $style := resources.Get "scss/devresume.scss" | resources.ExecuteAsTemplate "scss/devresume.scss" . | toCSS (dict "targetPath" "assets/css/devresume.css") | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $style.Permalink }}">
+    
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KZ98V6H');</script>
+    <!-- End Google Tag Manager -->
