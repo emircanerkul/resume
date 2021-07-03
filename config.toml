@@ -29,11 +29,11 @@ googleAnalytics = "UA-84655550-4"
         location = "Turkey & Remote"
 
         [[params.contact.list]]
-        icon = "fab fa-github"
+        icon = "icon-github"
         url = "//github.com/emircanerkul"
         text = "Github"
         [[params.contact.list]]
-        icon = "fab fa-linkedin-in"
+        icon = "icon-linkedin"
         url = "//www.linkedin.com/in/emircanerkul"
         text = "Linkedin"
 
@@ -53,19 +53,21 @@ googleAnalytics = "UA-84655550-4"
         details = "Yaml, Json, Xml, Csv, Env"
 
 
-        [[params.skills.list]]
-        title = "Tools"
-        [[params.skills.list.items]]
+    [params.tools]
+        enable = true
+
+        [[params.tools.list]]
+        [[params.tools.list.items]]
         details = "VSCode, Xdebug, Composer, npm"
-        [[params.skills.list.items]]
+        [[params.tools.list.items]]
         details = "Docker, Docksal, Drush, Devel"
-        [[params.skills.list.items]]
+        [[params.tools.list.items]]
         details = "WSL2, Windows, Mac, Linux"
-        [[params.skills.list.items]]
+        [[params.tools.list.items]]
         details = "Git, Gitlens, Gitpod, GitHub, GitLab"
-        [[params.skills.list.items]]
+        [[params.tools.list.items]]
         details = "MailHog, phpMyAdmin, MySQL Workbench, WinSCP"
-        [[params.skills.list.items]]
+        [[params.tools.list.items]]
         details = "Sketch, Figma, Photoshop"
 
     [params.education]
@@ -145,7 +147,7 @@ googleAnalytics = "UA-84655550-4"
 
         [[params.experience.list]]
         title = "Freelance Developer"
-        dates = "Jan 2019 - Present"
+        dates = "Jan 2019 - Sep 2020"
         company = "Freelancer"
         details = "My professional life began as a freelance developer due to university and life limits. As a freelancer, I learn lots of things like time management, client relationships, and more. \n\nFirstly I had to select my clients in Turkish speakers. After I become to speak and understand English, I moved my freelancer level to higher and able to reach all English spoken people."
         [[params.experience.list.items]]
@@ -224,10 +226,10 @@ googleAnalytics = "UA-84655550-4"
         enable = false
 
         [[params.social.list]]
-        icon = "fab fa-github-square"
+        icon = "icon-github"
         url = "//github.com/emircanerkul"
         title = "github"
         [[params.social.list]]
-        icon = "fab fa-linkedin"
+        icon = "icon-linkedin"
         url = "//linkedin.com/in/emircanerkul"
         title = "linkedin"
