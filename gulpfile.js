@@ -23,11 +23,22 @@ gulp.task('generate-service-worker', () => {
       },
     },
     {
-      urlPattern: /\.(?:png|jpg|jpeg|svg)$/,
+      urlPattern: /\.(?:png|jpg|jpeg|svg|ico)$/,
       handler: 'CacheFirst',
 
       options: {
         cacheName: 'images',
+        expiration: {
+          maxEntries: 10,
+        },
+      },
+    },
+    {
+      urlPattern: /\.(?:mp4)$/,
+      handler: 'CacheFirst',
+
+      options: {
+        cacheName: 'videos',
         expiration: {
           maxEntries: 10,
         },
