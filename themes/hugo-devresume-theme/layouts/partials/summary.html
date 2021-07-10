@@ -4,7 +4,9 @@
                     <div class="media flex-column flex-md-row align-items-center">
 
                         {{ if .Site.Params.profile.avatar }}
-                        <img class="resume-profile-image mb-3 mb-md-0 mr-md-5 ml-md-0 rounded mx-auto photo" height="120" width="120" src="{{ .Site.BaseURL }}assets/images/{{ .Site.Params.profile.avatar }}" alt="image">
+                        <div>
+                            <img class="resume-profile-image mb-3 mb-md-0 mr-md-5 ml-md-0 rounded mx-auto photo" height="120" width="120" src="{{ .Site.BaseURL }}assets/images/{{ .Site.Params.profile.avatar }}" alt="image">
+                        </div>
                         {{ end }}
 
                         <div class="media-body text-left">

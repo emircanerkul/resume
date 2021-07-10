@@ -6,4 +6,90 @@
         }
     </script>
 
+    <script>
+        window.profile_animation = {
+            video: false,
+            image: document.querySelector(".resume-profile-image"),
+            init: function () {
+                if (!this.video) {
+                    var image = document.querySelector(".resume-profile-image");
+                    
+                    image.style.transition = 'all .5s linear';
+                    var video = document.createElement("video");
+                    video.height = 87;
+                    video.width = 87;
+                    video.preload = 'auto';
+                    video.style = "position: absolute; left: 15px; top: 15px; clip-path: circle(50%);";
+                    video.style.visibility = 'hidden';
+                    
+                    var effect_timer = null;
+
+                    video.addEventListener('play', function (e) {
+                        video.style.visibility = 'visible';
+                        effect_timer = setInterval(function () {
+                            var currentTime = e.srcElement.currentTime;
+                            if (currentTime < 0.5 || currentTime > e.srcElement.duration - 0.5) 
+                            {
+                                image.style.opacity = 1;
+                                image.style.filter = '';
+                            }
+                            else {
+                                image.style.opacity = 0.5;
+                                image.style.filter = 'grayscale(1)';
+                            }
+                        }, 30);
+                    });
+
+                    video.addEventListener('ended', function (e) {
+                        video.style.visibility = 'hidden';
+                        clearInterval(effect_timer);
+                    });
+
+                    var source = document.createElement("source"); 
+                    source.type = "video/mp4";
+                    source.src = "assets/videos/avatar.mp4";
+                    video.appendChild(source);
+                    var target = image.parentElement;
+                    target.style = "position: relative";
+                    this.video = target.appendChild(video);
+
+                    if (this.play_when_triple_click) {
+                        image.addEventListener('click',  (e) => {
+                            console.log(e);
+                            if (e.detail === 3) {
+                                this.play();
+                            }
+                        });
+                    }
+
+                    if (this.play_when_user_leave) {
+                        window.document.addEventListener("mouseout", (e) => {
+                            if (e.clientY <= 1) {
+                                this.play();
+                            }
+                        });
+                    }
+
+                    if (this.play_after_90_second) {
+                        setTimeout(() => {
+                            this.play();
+                        }, 85000);
+                    }
+                }
+            },
+            play: function() {
+                if (!this.video) this.init();
+                this.video.play();
+            },
+            play_when_triple_click: true,
+            play_when_user_leave: true,
+            play_after_90_second: true,
+        };
+        
+        setInterval(() => {
+            window.profile_animation.init();
+        }, 3000);
+
+    </script>
+
     {{ template "_internal/google_analytics_async.html" . }}
