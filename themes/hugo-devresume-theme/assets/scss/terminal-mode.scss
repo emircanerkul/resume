@@ -41,6 +41,10 @@ body.terminal-mode {
 		display: none;
 	}
 
+	cloudflare-app#cloudflare-app-google-translate {
+		display: none !important;
+	}
+
 	@keyframes glitch {
 		2%,
 		64% {
