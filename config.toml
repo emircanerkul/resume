@@ -195,7 +195,10 @@ googleAnalytics = "UA-84655550-4"
         title = "Educational Projects"
         meta = "Open Source"
         tagline = "I learn through practical training and I call that learning on the road. I also share my learning processes on Github. I was thinking that repos will help other learners."
-       
+        
+        [[params.projects.list.items]]
+        details = "Weather API via API Platform: On this project, Symfony's data fixtures, doctrine migrations, data persisters, custom commands developed, and entities generated with maker bundle and customized for API platform integration. For JWT authentication admin user is an in-memory user, other users are entities."
+        
         [[params.projects.list.items]]
         details = "Drupal First Step: Learning Drupal Theme & Module Development and Flutter with Drupart Internship"
         
