@@ -151,6 +151,8 @@ googleAnalytics = "UA-84655550-4"
         company = "Freelancer"
         details = "My professional life began as a freelance developer due to university and life limits. As a freelancer, I learn lots of things like time management, client relationships, and more. \n\nFirstly I had to select my clients in Turkish speakers. After I become to speak and understand English, I moved my freelancer level to higher and able to reach all English spoken people."
         [[params.experience.list.items]]
+        details = "Drupal 9 Website Development and System Design for pdfseva.com"
+        [[params.experience.list.items]]
         details = "Full-stack Web Development and System Design for ringtonehd.com"
         [[params.experience.list.items]]
         details = "Full Stack Web Developer at Tvoystol for one month"
