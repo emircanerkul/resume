@@ -151,6 +151,8 @@ googleAnalytics = "UA-84655550-4"
         company = "Freelancer"
         details = "My professional life began as a freelance developer due to university and life limits. As a freelancer, I learn lots of things like time management, client relationships, and more. \n\nFirstly I had to select my clients in Turkish speakers. After I become to speak and understand English, I moved my freelancer level to higher and able to reach all English spoken people."
         [[params.experience.list.items]]
+        details = "Drupal 9 Website Development and System Design for pdfseva.com"
+        [[params.experience.list.items]]
         details = "Full-stack Web Development and System Design for ringtonehd.com"
         [[params.experience.list.items]]
         details = "Full Stack Web Developer at Tvoystol for one month"
@@ -195,7 +197,10 @@ googleAnalytics = "UA-84655550-4"
         title = "Educational Projects"
         meta = "Open Source"
         tagline = "I learn through practical training and I call that learning on the road. I also share my learning processes on Github. I was thinking that repos will help other learners."
-       
+        
+        [[params.projects.list.items]]
+        details = "Weather API via API Platform: On this project, Symfony's data fixtures, doctrine migrations, data persisters, custom commands developed, and entities generated with maker bundle and customized for API platform integration. For JWT authentication admin user is an in-memory user, other users are entities."
+        
         [[params.projects.list.items]]
         details = "Drupal First Step: Learning Drupal Theme & Module Development and Flutter with Drupart Internship"
         

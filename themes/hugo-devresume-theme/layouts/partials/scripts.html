@@ -5,7 +5,7 @@
             });
         }
     </script>
-
+    {{ $style_terminal := resources.Get "scss/terminal-mode.scss" | resources.ExecuteAsTemplate "scss/terminal-mode.scss" . | toCSS (dict "targetPath" "assets/css/terminal-mode.css") | minify | fingerprint }}
     <script>
         window.profile_animation = {
             video: false,
@@ -55,7 +55,6 @@
 
                     if (this.play_when_triple_click) {
                         image.addEventListener('click',  (e) => {
-                            console.log(e);
                             if (e.detail === 3) {
                                 this.play();
                             }
@@ -90,6 +89,55 @@
             window.profile_animation.init();
         }, 3000);
 
+        window.terminal_mode = {
+            once: false,
+            temp: null,
+            init: function () {
+                if (this.once == false) {
+                    document.head.insertAdjacentHTML( 'beforeend', '<link rel="stylesheet" href="{{ $style_terminal.Permalink }}">' );
+                }
+
+                let terminalWrapper = document.querySelector('.resume-intro .media-body');
+                if (!this.once) {
+                    this.temp = terminalWrapper.innerHTML;
+                }
+
+                document.querySelector('body').classList.add('terminal-mode');
+
+                let closeIframeTerminal = document.createElement('a');
+                closeIframeTerminal.href = 'javascript:window.terminal_mode.toggle()';
+                closeIframeTerminal.id = 'close-terminal';
+                closeIframeTerminal.innerText = 'Click here to turn off terminal mode';
+                terminalWrapper.replaceChildren(closeIframeTerminal);
+
+                let iframeTerminal = document.createElement('iframe');
+                iframeTerminal.src = 'https://terminal.emircanerkul.com';
+                iframeTerminal.height = '520px';
+                iframeTerminal.width = '100%';
+                iframeTerminal.style = 'border: none'
+                terminalWrapper.appendChild(iframeTerminal);
+
+                this.once = true;
+            },
+            destroy: function () {
+                let terminalWrapper = document.querySelector('.resume-intro .media-body');
+                terminalWrapper.innerHTML = this.temp;
+                document.querySelector('body').classList.remove('terminal-mode');
+            },
+            toggle: function () {
+                if (window.innerWidth < 999) return;
+                if (document.body.classList.contains('terminal-mode')) {
+                    this.destroy();
+                } else {
+                    this.init();
+                }
+            }
+        }
+
+        document.addEventListener('keydown', (e) => {
+            if (e.repeat) return;
+            if (e.keyCode == 27) window.terminal_mode.toggle();
+        });
     </script>
 
     {{ template "_internal/google_analytics_async.html" . }}
