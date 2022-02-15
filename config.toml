@@ -125,7 +125,7 @@ googleAnalytics = "UA-84655550-4"
 
         [[params.experience.list]]
         title = "Full Stack Drupal Developer"
-        dates = "Sep 2020 - Present"
+        dates = "Sep 2020 - Feb 2022"
         company = "Drupart"
         details = "My first full-time professional life just began in the middle of university studying. I met great peoples that light my way. \n\nThe colors of this light are;"
         [[params.experience.list.items]]
