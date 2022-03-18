@@ -124,6 +124,11 @@ googleAnalytics = "UA-84655550-4"
         enable = true
 
         [[params.experience.list]]
+        title = "Drupal Developer"
+        dates = "March 2022 - Now"
+        company = "Emakina.TR"
+
+        [[params.experience.list]]
         title = "Full Stack Drupal Developer"
         dates = "Sep 2020 - Feb 2022"
         company = "Drupart"
