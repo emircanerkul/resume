@@ -13,7 +13,7 @@ googleAnalytics = "UA-84655550-4"
 
 [params]
     author = "Emircan ERKUL"
-    description = "I spend my time and energy on personal and technical development. Each day I want to be at least one step ahead. This mindset brought me to professional life earlier and turned into me a self-learner."
+    description = "I spend my time and energy on personal and technical development. Each day I want to be at least one step ahead. This mindset brought me into professional life earlier and turned into me a self-learner."
 
     primaryColor = "#4c74b8"
     textPrimaryColor = "#292929"
@@ -114,11 +114,11 @@ googleAnalytics = "UA-84655550-4"
         [[params.interests.list]]
         name = "Playing Instruments"
         [[params.interests.list]]
-        name = "Learning Usefull Things"
+        name = "Learning Useful Things"
 
     [params.summary]
         enable = true
-        text = "I spend my time and energy on personal and technical development. Each day I want to be at least one step ahead. This mindset brought me to professional life earlier and turned into me a self-learner. \n\n With my continuously growing knowledge, I'm in this sector for 3 years. I'm providing especially web-based software solutions for my clients. I'm result-focused and responsible. With these characteristics, I'm able to make my clients satisfied and profitable. I’m open mind and outspoken. I don’t just do exactly what was said. If I think what is said isn't fit or if I got an idea, I also tell my own opinion because I want my client to be successful."
+        text = "I spend my time and energy on personal and technical development. Each day I want to be at least one step ahead. This mindset brought me into professional life earlier and turned into me a self-learner."
 
     [params.experience]
         enable = true
@@ -132,7 +132,7 @@ googleAnalytics = "UA-84655550-4"
         title = "Drupal Developer"
         dates = "Sep 2020 - Feb 2022"
         company = "Drupart"
-        details = "My first full-time professional life just began in the middle of university studying. I met great peoples that light my way. \n\nThe colors of this light are;"
+        details = "My first full-time professional life just began in the middle of university studying. I met great people that light my way. \n\nThe colors of this light are;"
         [[params.experience.list.items]]
         details = "Working as a Team and using collaboration tools like Git"
         [[params.experience.list.items]]
@@ -154,7 +154,7 @@ googleAnalytics = "UA-84655550-4"
         title = "Freelance Developer"
         dates = "Jan 2019 - Sep 2020"
         company = "Freelancer"
-        details = "My professional life began as a freelance developer due to university and life limits. As a freelancer, I learn lots of things like time management, client relationships, and more. \n\nFirstly I had to select my clients in Turkish speakers. After I become to speak and understand English, I moved my freelancer level to higher and able to reach all English spoken people."
+        details = "My professional life began as a freelance developer due to university and life limits. As a freelancer, I learn lots of things like time management, client relationships, and more. \n\nFirstly I had to select my clients in Turkish speakers. After I become to speak and understand English, I moved my freelancer level to higher and was able to reach all English-spoken people."
         [[params.experience.list.items]]
         details = "Drupal 9 Website Development and System Design for pdfseva.com"
         [[params.experience.list.items]]
@@ -176,7 +176,7 @@ googleAnalytics = "UA-84655550-4"
         [[params.projects.list]]
         title = "Data Visualization"
         meta = "Open Source"
-        tagline = "This project about spreadsheet visualization totally on the client-side. In this project, I used SheetJS and WebSQL. There is an online demo on my GitHub page."
+        tagline = "This project is about spreadsheet visualization is totally on the client-side. In this project, I used SheetJS and WebSQL. There is an online demo on my GitHub page."
 
         [[params.projects.list]]
         title = "Augmented Reality"
@@ -187,37 +187,37 @@ googleAnalytics = "UA-84655550-4"
         title = "Quotes"
         meta = "Open Source"
         tagline = "Lots of courses completed and developed an Ionic app with Firebase, Angular, and RxJS. I saw the beauty of Reactive programming on this project."
-        
+
         [[params.projects.list]]
         title = "CVGen | Customizable CV Generator"
         meta = "Open Source"
         tagline = "In this project, I develop a multi-profile and multilanguage featured resume generator with a custom template engine and  Wkhtmltopdf. For the development environment, I used docker and create a docker file for this project's needs."
-        
+
         [[params.projects.list]]
         title = "QGen | SQL Query Generator"
         meta = "Open Source"
-        tagline = "Lots of classes like math, chemistry, linear algebra, and database design some exam questions have patterns. In this project, I demonstrate how to generate unique exams for educational institutions. Generating pdf and archive will be on the client browser. Besides generating exams, I developed hardness level calculation of question basis on Bezier Easing. There is an online demo on my GitHub page."
-        
+        tagline = "In lots of classes like math, chemistry, linear algebra, and database design some exam questions have patterns. In this project, I demonstrate how to generate unique exams for educational institutions. Generating pdf and archive will be on the client browser. Besides generating exams, I developed hardness level calculation of questions basis on Bezier Easing. There is an online demo on my GitHub page."
+
         [[params.projects.list]]
         title = "Educational Projects"
         meta = "Open Source"
         tagline = "I learn through practical training and I call that learning on the road. I also share my learning processes on Github. I was thinking that repos will help other learners."
-        
+
         [[params.projects.list.items]]
-        details = "Weather API via API Platform: On this project, Symfony's data fixtures, doctrine migrations, data persisters, custom commands developed, and entities generated with maker bundle and customized for API platform integration. For JWT authentication admin user is an in-memory user, other users are entities."
-        
+        details = "Weather API via API Platform: On this project, Symfony's data fixtures, doctrine migrations, data persisters, custom commands developed, and entities generated with maker bundle and customized for API platform integration. For JWT authentication admin user is an in-memory user, and other users are entities."
+
         [[params.projects.list.items]]
         details = "Drupal First Step: Learning Drupal Theme & Module Development and Flutter with Drupart Internship"
-        
+
         [[params.projects.list.items]]
         details = "Symfony First Step: In this project, I am developing a content management system just for learning the Symfony framework."
-        
+
         [[params.projects.list.items]]
-        details = "RPG Game Development Adventure: In this project, I really enjoyed developing a little game with fully object-oriented javascript. I share each day's progress with animated gifs. I wasn't spend all day, just I wanted to be consistent in daily development."
-        
+        details = "RPG Game Development Adventure: In this project, I enjoyed developing a little game with fully object-oriented javascript. I share each day's progress with animated gifs. I wasn't spening all day, just I wanted to be consistent in daily development."
+
         [[params.projects.list.items]]
         details = "PSD to Html: I wanted to learn how to PSD to HTML and improve my front-end skills. I aimed to use different technologies at every stage of this project for my education."
-       
+
     [params.information]
         enable = false
 
