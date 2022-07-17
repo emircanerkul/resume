@@ -126,7 +126,8 @@ googleAnalytics = "UA-84655550-4"
         [[params.experience.list]]
         title = "Drupal Developer"
         dates = "March 2022 - Now"
-        company = "Emakina.TR"
+        company = "EPAM"
+        details = "Working with great EPAMers on global projects, especially in the pharma industry."
 
         [[params.experience.list]]
         title = "Drupal Developer"
