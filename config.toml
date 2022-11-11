@@ -13,7 +13,7 @@ googleAnalytics = "UA-84655550-4"
 
 [params]
     author = "Emircan ERKUL"
-    description = "I spend my time and energy on personal and technical development. Each day I want to be at least one step ahead. This mindset brought me into professional life earlier and turned into me a self-learner."
+    description = "I spend my time and energy on personal and technical development. Each day I want to be at least one step ahead."
 
     primaryColor = "#4c74b8"
     textPrimaryColor = "#292929"
@@ -70,6 +70,14 @@ googleAnalytics = "UA-84655550-4"
         [[params.tools.list.items]]
         details = "Sketch, Figma, Photoshop"
 
+    [params.certificates]
+        enable = true
+
+        [[params.certificates.list]]
+        title = "Certified Drupal 9 Developer"
+        issuer = "Acquia"
+        dates = "Nov 2022"
+
     [params.education]
         enable = true
 
@@ -118,7 +126,7 @@ googleAnalytics = "UA-84655550-4"
 
     [params.summary]
         enable = true
-        text = "I spend my time and energy on personal and technical development. Each day I want to be at least one step ahead. This mindset brought me into professional life earlier and turned into me a self-learner."
+        text = "I spend my time and energy on personal and technical development. Each day I want to be at least one step ahead."
 
     [params.experience]
         enable = true

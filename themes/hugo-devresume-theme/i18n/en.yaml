@@ -1,5 +1,7 @@
 - id: awards
   translation: Awards
+- id: certificates
+  translation: Certificates
 - id: education
   translation: Education
 - id: experiences
