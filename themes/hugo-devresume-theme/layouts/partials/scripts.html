@@ -13,7 +13,7 @@
             init: function () {
                 if (!this.video) {
                     var image = document.querySelector(".resume-profile-image");
-                    
+
                     image.style.transition = 'all .5s linear';
                     var video = document.createElement("video");
                     video.height = 87;
@@ -21,14 +21,14 @@
                     video.preload = 'auto';
                     video.style = "position: absolute; left: 15px; top: 15px; clip-path: circle(50%);";
                     video.style.visibility = 'hidden';
-                    
+
                     var effect_timer = null;
 
                     video.addEventListener('play', function (e) {
                         video.style.visibility = 'visible';
                         effect_timer = setInterval(function () {
                             var currentTime = e.srcElement.currentTime;
-                            if (currentTime < 0.5 || currentTime > e.srcElement.duration - 0.5) 
+                            if (currentTime < 0.5 || currentTime > e.srcElement.duration - 0.5)
                             {
                                 image.style.opacity = 1;
                                 image.style.filter = '';
@@ -45,7 +45,7 @@
                         clearInterval(effect_timer);
                     });
 
-                    var source = document.createElement("source"); 
+                    var source = document.createElement("source");
                     source.type = "video/mp4";
                     source.src = "assets/videos/avatar.mp4";
                     video.appendChild(source);
@@ -84,7 +84,7 @@
             play_when_user_leave: true,
             play_after_90_second: true,
         };
-        
+
         setInterval(() => {
             window.profile_animation.init();
         }, 3000);
@@ -102,6 +102,7 @@
                     this.temp = terminalWrapper.innerHTML;
                 }
 
+                terminalWrapper.classList.remove('col-lg-4');
                 document.querySelector('body').classList.add('terminal-mode');
 
                 let closeIframeTerminal = document.createElement('a');
@@ -121,6 +122,7 @@
             },
             destroy: function () {
                 let terminalWrapper = document.querySelector('.resume-intro .media-body');
+                terminalWrapper.classList.add('col-lg-4');
                 terminalWrapper.innerHTML = this.temp;
                 document.querySelector('body').classList.remove('terminal-mode');
             },

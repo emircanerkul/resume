@@ -118,11 +118,9 @@ googleAnalytics = "UA-84655550-4"
         [[params.interests.list]]
         name = "Spirituality"
         [[params.interests.list]]
-        name = "3D Modelling"
-        [[params.interests.list]]
         name = "Playing Instruments"
         [[params.interests.list]]
-        name = "Learning Useful Things"
+        name = "3D Modelling"
 
     [params.summary]
         enable = true
@@ -136,18 +134,24 @@ googleAnalytics = "UA-84655550-4"
         dates = "March 2022 - Now"
         company = "EPAM"
         details = "Working with great EPAMers on global projects, especially in the pharma industry."
+        [[params.experience.list.items]]
+        details = "Working fully remotely with epamers all around the world"
+        [[params.experience.list.items]]
+        details = "Collaborating with MS Teams, Git, JIRA, Confluence"
+        [[params.experience.list.items]]
+        details = "Creating great results with Agile Methodology"
 
         [[params.experience.list]]
         title = "Drupal Developer"
         dates = "Sep 2020 - Feb 2022"
         company = "Drupart"
-        details = "My first full-time professional life just began in the middle of university studying. I met great people that light my way. \n\nThe colors of this light are;"
+        details = "My first full-time professional life just began in the middle of my University studying. I met great people that lighted my way. \n\nThe colors of this light are;"
         [[params.experience.list.items]]
         details = "Working as a Team and using collaboration tools like Git"
         [[params.experience.list.items]]
         details = "Multitasking thanks to working on multiple great projects at the same time"
         [[params.experience.list.items]]
-        details = "Being Agile with great time management"
+        details = "Being Agile with excellent time management"
         [[params.experience.list.items]]
         details = "Developing with fewer Code Smells and high standard"
         [[params.experience.list.items]]
@@ -157,13 +161,13 @@ googleAnalytics = "UA-84655550-4"
         [[params.experience.list.items]]
         details = "Drupal 7 to Drupal 9 migrations"
         [[params.experience.list.items]]
-        details = "And more technical and personal benefits…"
+        details = "And more technical and personal benefits"
 
         [[params.experience.list]]
         title = "Freelance Developer"
         dates = "Jan 2019 - Sep 2020"
         company = "Freelancer"
-        details = "My professional life began as a freelance developer due to university and life limits. As a freelancer, I learn lots of things like time management, client relationships, and more. \n\nFirstly I had to select my clients in Turkish speakers. After I become to speak and understand English, I moved my freelancer level to higher and was able to reach all English-spoken people."
+        details = "My professional life began as a freelance developer due to university and time limits. As a freelancer, I learn many things like time management, client relationships, and more. \n\nFirstly I had to select my clients from Turkish speakers. After I began to speak and understand English, I moved my freelancer level higher and reached all English-spoken people."
         [[params.experience.list.items]]
         details = "Drupal 9 Website Development and System Design for pdfseva.com"
         [[params.experience.list.items]]
@@ -171,7 +175,7 @@ googleAnalytics = "UA-84655550-4"
         [[params.experience.list.items]]
         details = "Full Stack Web Developer at Tvoystol for one month"
         [[params.experience.list.items]]
-        details = "Full Stack Web Developer at Modalobby for two month"
+        details = "Full Stack Web Developer at Modalobby for two months"
         [[params.experience.list.items]]
         details = "Product synchronization via Prestashop API for otolastikci.com.tr"
         [[params.experience.list.items]]
@@ -183,6 +187,11 @@ googleAnalytics = "UA-84655550-4"
         enable = true
 
         [[params.projects.list]]
+        title = "Drupal Toolbox"
+        meta = "Open Source"
+        tagline = "This Raycast extension was developed to manage Drupal websites with ease. ReactJS and Raycast API are used."
+
+        [[params.projects.list]]
         title = "Data Visualization"
         meta = "Open Source"
         tagline = "This project is about spreadsheet visualization is totally on the client-side. In this project, I used SheetJS and WebSQL. There is an online demo on my GitHub page."
@@ -190,27 +199,27 @@ googleAnalytics = "UA-84655550-4"
         [[params.projects.list]]
         title = "Augmented Reality"
         meta = "Open Source"
-        tagline = "I demonstrated how AR works on a browser in this project that was developed and present on First Class of University. The model will be standing on a specific card. Other 6 different cards were used for giving a command to the animated model through the camera. I used jsartoolkit5 and an animated model with threejs. There is an online demo on my GitHub page."
+        tagline = "I demonstrated how AR works on a browser in this project that was developed and presented on First Class of University. The model will be standing on a specific card. Other 6 different cards were used for giving a command to the animated model through the camera. I used jsartoolkit5 and an animated model with threejs. There is an online demo on my GitHub page."
 
         [[params.projects.list]]
         title = "Quotes"
         meta = "Open Source"
-        tagline = "Lots of courses completed and developed an Ionic app with Firebase, Angular, and RxJS. I saw the beauty of Reactive programming on this project."
+        tagline = "Lots of courses completed and developed an Ionic app with Firebase, Angular, and RxJS. I saw the beauty of Reactive programming in this project."
 
         [[params.projects.list]]
         title = "CVGen | Customizable CV Generator"
         meta = "Open Source"
-        tagline = "In this project, I develop a multi-profile and multilanguage featured resume generator with a custom template engine and  Wkhtmltopdf. For the development environment, I used docker and create a docker file for this project's needs."
+        tagline = "In this project, I developed a multi-profile and multilanguage featured resume generator with a custom template engine and  Wkhtmltopdf. For the development environment, I used docker and created a docker file for this project's needs."
 
         [[params.projects.list]]
         title = "QGen | SQL Query Generator"
         meta = "Open Source"
-        tagline = "In lots of classes like math, chemistry, linear algebra, and database design some exam questions have patterns. In this project, I demonstrate how to generate unique exams for educational institutions. Generating pdf and archive will be on the client browser. Besides generating exams, I developed hardness level calculation of questions basis on Bezier Easing. There is an online demo on my GitHub page."
+        tagline = "In many classes like math, chemistry, linear algebra, and database design, some exam questions have patterns. In this project, I demonstrate how to generate unique exams for educational institutions. Generating pdf and archives will be on the client browser. Besides generating exams, I developed hardness level calculation of questions basis on Bezier Easing. There is an online demo on my GitHub page."
 
         [[params.projects.list]]
         title = "Educational Projects"
         meta = "Open Source"
-        tagline = "I learn through practical training and I call that learning on the road. I also share my learning processes on Github. I was thinking that repos will help other learners."
+        tagline = "I learn through practical training, and I call that learning on the road. I also share my learning processes on Github. I thought that repos would help other learners."
 
         [[params.projects.list.items]]
         details = "Weather API via API Platform: On this project, Symfony's data fixtures, doctrine migrations, data persisters, custom commands developed, and entities generated with maker bundle and customized for API platform integration. For JWT authentication admin user is an in-memory user, and other users are entities."
@@ -219,10 +228,10 @@ googleAnalytics = "UA-84655550-4"
         details = "Drupal First Step: Learning Drupal Theme & Module Development and Flutter with Drupart Internship"
 
         [[params.projects.list.items]]
-        details = "Symfony First Step: In this project, I am developing a content management system just for learning the Symfony framework."
+        details = "Symfony First Step: In this project, I am developing a content management system to learn the Symfony framework."
 
         [[params.projects.list.items]]
-        details = "RPG Game Development Adventure: In this project, I enjoyed developing a little game with fully object-oriented javascript. I share each day's progress with animated gifs. I wasn't spening all day, just I wanted to be consistent in daily development."
+        details = "RPG Game Development Adventure: In this project, I enjoyed developing a little game with fully object-oriented javascript. I share each day's progress with animated gifs. I wasn't spending all day; I just wanted to be consistent in daily development."
 
         [[params.projects.list.items]]
         details = "PSD to Html: I wanted to learn how to PSD to HTML and improve my front-end skills. I aimed to use different technologies at every stage of this project for my education."
