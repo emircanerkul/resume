@@ -1,3 +1,3 @@
 FROM gitpod/workspace-full
 
-RUN brew install hugo
+RUN go install -tags extended github.com/gohugoio/hugo@latest
