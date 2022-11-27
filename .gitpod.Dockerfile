@@ -1,3 +1,3 @@
 FROM gitpod/workspace-full
 
-RUN go install -tags extended github.com/gohugoio/hugo@latest
+RUN snap install hugo --channel=extended
