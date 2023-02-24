@@ -1,8 +1,11 @@
-Hi ✋ I'm an Acquia [Certified](https://certification.acquia.com/?fname=Emircan&lname=ERKUL) Drupal Developer for 2+ years & Full Stack Web Developer for 4+ years and I like to Contribute.
+Hi ✋ I'm an Acquia [Certified](https://certification.acquia.com/?fname=Emircan&lname=ERKUL) Drupal Developer.
 
-> I spend my time and energy on personal and technical development. Each day I want to be at least one step ahead.
+And as a full-stack web developer, I have over 5 years of experience working both as an employee for ~3 years and as a freelancer for more than 2 years. My skills include extensive development in Drupal, specializing in theming and module development for 2 years. In addition, I have worked on JamStack projects and utilized various technologies such as ReactJS, SolidJS, and jQuery. 
 
-[My Website](https://emircanerkul.com/) is my CV.
+> Overall, I possess a strong understanding of web development technologies and frameworks, with a proven track record of delivering quality projects in a timely manner. I am highly adaptable and constantly seeking out new challenges to expand my skill set and contribute to innovative and impactful projects.
+
+
+[My Website](https://emircanerkul.com/) is my CV but also you can print it (make sure you scroll all the way to the bottom).
 
 <img src="https://github-readme-stats.vercel.app/api?username=emircanerkul&show_icons=true&count_private=true&theme=dark" />
 
